@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>  
+	<style>
+
+	.miBloque {
+		float: left;
+		margin: 5px;
+		padding: 15px;
+		width: 250px;
+		height: 250px;
+		border: 1px solid black;
+		background-color: white;
+		} 
+	
+	#transparencia {
+		filter: alpha(opacity=50); /* internet explorer */
+		-khtml-opacity: 0.5;       /* khtml, old safari */
+		-moz-opacity: 0.5;         /* mozilla, netscape */
+		opacity: 0.5;              /* fx, safari, opera */
+	}
+
+	</style>
+</head>
+
+<body bgcolor=lightblue>
+ 
+  <div class="miBloque">
+    <h3>Bloque Div</h3>  
+	Las etiquetas "div" son <b>elementos de bloque</b> <br>
+	que pueden ser usadas como contenedores de otros elementos HTML.<br>	
+  </div>
+  
+  <div class="miBloque" id="transparencia">
+	 <h3>Bloque Div Transparente</h3>  
+	 Los elementos de bloque son elementos que <b>ocupan todo el espacio disponible</b><br>
+	 a lo ancho y a lo alto (en función de su contenido)  y se agrupan en vertical, apilandose como ladrillos.
+  </div>
+       
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica para examen</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+    <script language="JavaScript" type="text/javascript" src="logica.js"></script>
+    
+    <div id="formTutorias" class="main">
+        <strong><span id="idFotograma" style="font-family: Arial; font-size: 24pt">CONCERTAR UNA
+                TUTORÍA</span></strong><br />
+        <br />
+        <div ID="pnlMensaje" title="Error" style="display:none">
+            <div>
+                <strong>Atención!</strong> Se ha presentado el siguiente problema.
+                <br/>
+                <br/>
+                <p ID="blMensajes"></p>
+            </div>
+        </div>
+        <div ID="pnlInfo" title="Mensaje" style="display : none;">
+            <div>
+                <strong>Información!</strong> Procesamiento éxitoso.
+                <br />
+                <br />
+                <p ID="blInfo"></p>
+            </div>
+        </div>
+        <div style="text-align: left; font-family: Arial">
+            Alumno:<br />
+            <input name="nombreAlumno" type="text" id="nombreAlumno" style="width:504px;" required/><br />
+
+            Con el profesor:<br />
+            <select name="idProfesor" id="idProfesor" style="font-size:Medium;width:296px;">
+
+            </select><br />
+
+            Día:<br />
+            <select name="idDia" id="idDia" style="font-size:Medium;">
+
+            </select><br />
+            Hora: &nbsp;  <!-- non breaking space -->
+            <span id="sHora">
+                <label for="lHora10">10</label>
+                <input id="hora" type="radio" name="hora" value="10" checked="checked" />
+                <label for="lhora12">12</label>
+                <input id="hora" type="radio" name="hora" value="12" />
+                <label for="lhora16">16</label>
+                <input id="hora" type="radio" name="hora" value="16" />
+                <label for="lhora18">18</label>
+                <input id="hora" type="radio" name="hora" value="10" checked="checked"/></span><br/>
+
+            Asunto:<br />
+            <textarea name="asunto" rows="2" cols="20" id="asunto"
+                style="height:64px;width:440px;" required></textarea><br/>
+
+            <!-- animacion basada en javascript -->
+            <canvas id="anuncio" width="640" height="100"></canvas>
+
+            <input type="submit" name="btEnviar" value="Enviar datos" 
+            id="btEnviar" style="width:112px;" onclick="Almacenamiento"/>
+<!--evento on click de manera inline en html para almacenamiento local, sesion o cookies-->
+            &nbsp;
+            <input type="reset" name="restablecer" value="Restablecer" id="restablecer" style="width:112px;" />
+        </div>
+    </div>
+</body>
+</html>

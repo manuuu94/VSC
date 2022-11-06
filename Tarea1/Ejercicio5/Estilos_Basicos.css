@@ -1,0 +1,98 @@
+/*-------------------------------------------------
+	Biblioteca de Estilos de CSS
+	Lic. Eduardo González Paniagua. 09/02/2019
+---------------------------------------------------*/
+ul{
+	list-style-image:url(Bu);
+}
+
+/************************************/
+.cols2left{float:left; width:40%; margin-right:2%}
+.cols2right{float:right; width:40%}
+.clear{clear:both}
+
+/************************************/
+a:link {
+	color:Green;
+	text-decoration:underline;
+}/* unvisited link */
+
+a:visited {
+	color:blue;
+	background-color:yellow;
+	text-decoration:none;
+}/* visited link */
+
+a:hover {
+	color:purple;
+	text-decoration:none;
+}/* mouse over link */
+
+a:active {
+	color:black;
+	text-decoration:underline;
+}  /* selected link */
+/************************************/
+
+.Align_Center{text-align: center}
+.Align_Right{text-align: right}
+.Align_Left{text-align: left}
+.Texto_Sobrerayado{text-decoration:overline;}
+.Texto_Tachado{text-decoration:line-through;}
+.Texto_Subrayado{text-decoration:underline;}
+.Texto_Parpadea{text-decoration:blink;}
+.Texto_Mayuscula {text-transform:uppercase;}
+.Texto_Minuscula {text-transform:lowercase;}
+.Texto_Capital {text-transform:capitalize;}
+.Texto_Normal {font-style:normal;}
+.Texto_Cursiva {font-style:italic;}
+.Texto_Oblicuo {font-style:oblique;}
+
+.Fondo{background-image:url('paper.gif')} 
+
+.Parrafo_Marcado_Amarillo{
+	background-color: yellow;
+    font: bold 12pt 'Times Roman';
+    margin-left: 1.5in;
+    margin-right: 1.5in
+}
+
+.Titulo_Gde_Azul{
+   font-size:18pt;
+   color:blue;
+   font-family:verdana
+}
+
+.Tit_Gde_Fondo_Gris{
+	background-color: #C0C0C0;
+    font-family: "Arial Black";
+    font-size: 18pt;
+    margin-left: 1in;
+    margin-right: 1in
+}
+
+.Parrafo_Verde{
+   font-size:12pt;
+   color: green;
+   font-family:verdana
+}
+
+.Sin_Borde{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none
+}
+
+.Div_Gris_Borde_Azul {
+	font-family: 'Comic Sans MS';
+ 	font-size: 12pt;
+	text-align: left;
+	background-color: #C0C0C0;
+	margin-left: 1in;
+	margin-right: 1in;
+	border: medium solid blue
+}
+
+
+

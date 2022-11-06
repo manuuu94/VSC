@@ -1,0 +1,14 @@
+body {
+  counter-reset: capitulo;
+}
+h1 {
+  counter-reset: seccion;
+}
+h1:before {
+  content: "Capítulo " counter(capitulo, upper-roman) ". ";
+  counter-increment: capitulo;
+}
+h2:before {
+  content: counter(capitulo, upper-roman) "." counter(seccion, upper-roman) " ";
+  counter-increment: seccion;
+}

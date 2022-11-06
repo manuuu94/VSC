@@ -1,0 +1,20 @@
+.main{
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto;
+}
+
+  
+strong > span {
+    quotes: '"' '"';
+  }
+  
+strong > span:before {
+    content: open-quote;
+  }
+  
+strong > span:after {
+    content: close-quote;
+  }
+
+  

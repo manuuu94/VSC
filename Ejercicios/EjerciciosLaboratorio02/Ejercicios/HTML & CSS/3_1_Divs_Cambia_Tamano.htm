@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>  
+	<style>
+
+	.miBloque {
+		float: left;
+		margin: 5px;
+		padding: 15px;
+		width: 250px;
+		height: 250px;
+		border: 1px solid black;
+		}
+		
+	.CambiAncho {
+     	resize: horizontal;
+		overflow: auto;
+		min-width: 50px; 
+		min-height: 50px;
+	} 
+	
+	.CambiAlto {
+     	resize: vertical;
+		overflow: auto;
+		min-width: 50px; 
+		min-height: 50px;
+	} 
+		
+
+	</style>
+</head>
+
+<body>
+ 
+  <div class="miBloque CambiAncho">
+    <h3>Bloque Div </h3>  
+	A este bloque puede cambiarsele el tamaño Horizontal arrastrando la esquina inferior derecha. (Observen que se le estan aplicando 2 clases)<br>	
+  </div>
+  
+  <div class="miBloque CambiAlto">
+    <h3>Bloque Div </h3>  
+	A este bloque puede cambiarsele el tamaño Vertical arrastrando la esquina inferior derecha. (Observen que se le estan aplicando 2 clases)<br>	
+  </div>
+        
+</body>
+</html>

@@ -1,0 +1,3 @@
+span.especial:after {
+  content: url("../imagen_share.png");
+}

@@ -1,0 +1,13 @@
+body {
+  counter-reset: parrafos;
+}
+
+p {
+  counter-increment: parrafos;
+}
+.especial p:before {
+  content: counter(parrafos, none);
+}
+p:before {
+  content: counter(parrafos) ". ";
+}

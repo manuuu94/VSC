@@ -1,0 +1,10 @@
+blockquote, span {
+  quotes: "«" "»" '"' '"';
+}
+ 
+blockquote:before, span:before {
+  content: open-quote;
+}
+blockquote:after, span:after {
+  content: close-quote;
+}

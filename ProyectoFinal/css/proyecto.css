@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+/*BODY*/
+body{
+    font-family: Arial;
+    margin: 0;
+    background-image:url("../img/cars.jpg");
+}
+/*CENTER CONTENT*/
+.centro{
+  margin-bottom: 50%;
+}
+
+/*CABEZA*/
+.header {
+    padding-top: 5px;
+    padding-right: 5px;
+    background:black;
+    color: white;
+    font-size: 200%;
+  }
+
+/*GRID CABEZA*/
+.grid-container{
+    display: grid;
+    grid-template-rows:60px;
+    grid-template-columns: 5% 25% 40% 25% 5%;
+    background-color: lightgray;
+    margin:0%;
+    }
+
+.grid-container logo{
+  content:url(../img/CarWash.jpg);
+  height:100%;
+}
+
+.grid-container cart{
+      content:url(../img/cart.png);
+      height: 100%;
+      width: 50px;
+    }
+
+  /* Style the top navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: darkgray;
+}
+  
+  /* Style the navigation bar links */
+.navbar a {
+    color: white;
+    padding: 14px 100px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  /* Change color on hover */
+.navbar a:hover {
+    background-color: lightgray;
+    color: black;
+  }
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: darkgray;
+  color: white;
+  padding: 14px 100px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(145, 145, 145, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: lightgray;
+}
+
+
+
+
+
+
+
+
+/*PIE DE PAGINA*/
+footer {
+  background-color: lightgray;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 60px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

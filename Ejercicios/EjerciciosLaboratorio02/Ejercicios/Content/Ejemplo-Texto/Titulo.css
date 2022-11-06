@@ -1,0 +1,7 @@
+h1:before {
+  content: "Capítulo ";
+}
+
+p.nota:before {
+  content: "Nota: ";
+}

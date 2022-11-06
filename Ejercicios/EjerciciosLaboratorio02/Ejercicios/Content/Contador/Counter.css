@@ -1,0 +1,8 @@
+ol {
+  counter-reset: elemento;
+  list-style-type: none;
+}
+li:before {
+  content: counter(elemento) ". ";
+  counter-increment: elemento;
+}

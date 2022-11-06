@@ -1,0 +1,19 @@
+pre, p {
+    font-size: 1.5em;
+    color: #FE7F88;
+    background-color: transparent;
+}
+
+div {
+  background-image: url("imagen_share.png");
+}
+
+p {
+  background-image: none;
+}
+
+.catsandstars {
+  background-image:  url("imagen_share.png"), 
+                     url("imagen_share.png");
+  background-color: transparent;
+}

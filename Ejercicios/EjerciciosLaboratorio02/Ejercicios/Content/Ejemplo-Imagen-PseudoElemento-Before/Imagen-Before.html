@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo de uso de :before con imágenes</title>
+    <link rel="stylesheet" type="text/css" href="imagen-Before.css">
+</head>
+<body>
+  <!--   <div id="contenedor"> -->
+        <img id="maxima" src="Maxima.jpg">
+   <!--  </div> -->
+</body>
+</html>
+
+<!-- Los pseudo-elementos :before y :after que usamos constantemente en CSS no funcionan si se aplican directamente a un elemento de imagen (tipo <img>).
+
+El motivo es que <img>, al igual algunos otros elementos "especiales" son lo que la especificación HTML denomina "elementos reemplazados". Un elemento de este tipo tiene sus dimensiones y apariencia determinados a partir de un recurso externo, en este caso una imagen -->
+
+<!-- Esto, de todos modos, tiene muy fácil solución, pues basta con envolver a la imagen o elemento reemplazado en otro elemento no-reemplazado (generalmente un <div>) y aplicarle a éste el pseudo-elemento que nos interese. -->

@@ -1,0 +1,3 @@
+abbr:after, acronym:after {
+  content: " (" attr(title) ")"
+}

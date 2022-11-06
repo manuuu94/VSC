@@ -1,0 +1,15 @@
+#contenedor {
+            width:650px;
+            margin:0 auto;
+            position: relative;
+        }
+        
+#contenedor:before {
+            content: url('nuevo.png');
+            display:block;
+            width: 75px;
+            height:75px;
+            position:absolute;
+            left: 10px;
+            top: 10px;
+        }

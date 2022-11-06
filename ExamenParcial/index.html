@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publicación Libros</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <script language="JavaScript" type="text/javascript" src="js/logica.js"></script>
+</head>
+
+<body>
+    <div id="formTipo publicacion" class="container">
+        <div class="item1">
+            <p>Tipo de publicacion</p>
+            <span id="selectTipo">
+                <label for="Libro Impreso" >Libro Impreso</label>
+                <input class="tipo" id="libroImpreso" type="radio" name="tipo" value="0" checked="checked" onchange="seleccion()" /><br />
+                <label for="Audio-Libro" >Audio-Libro</label>
+                <input class="tipo" id="audioLibro" type="radio" name="tipo" value="1" onchange="seleccion()" />
+            </span><br />
+        </div>
+
+        <div class="item2">
+            <button onclick="guardar()">Enviar Datos</button><br />
+            <button>Restablecer</button><br />
+            <button>Salir</button><br />
+        </div>
+
+        <div class="item3">
+            <p>Datos de la publicacion</p>
+            Titulo 
+            <input name="titulo" type="text" id="titulo" style="width:504px;" required /><br />
+            Precio
+            <input name="precio" type="text" id="precio" style="width:504px;" onkeypress='return event.charCode >= 48 && event.charCode <= 57' required /><br />
+            Num.Paginas
+            <input name="numPaginas" type="text" id="numPaginas" style="width:504px;" onkeypress='return event.charCode >= 48 && event.charCode <= 57' disabled/><br />
+            Tiempo (Minutos)
+            <input name="tiempo" type="text" id="tiempo" style="width:504px;" onkeypress='event.charCode >= 48 && event.charCode <= 57' disabled/><br />
+        </div>
+
+    </div>
+</body>

@@ -1,0 +1,16 @@
+blockquote:before {
+  content: open-quote;
+}
+blockquote:after {
+  content: close-quote;
+}
+blockquote {
+  quotes: "«" "»";
+}
+
+p:before {
+  content: "Contenido generado \"dinámicamente\" mediante CSS. ";
+}
+#ultimo:after {
+  content: " Fin de los 'contenidos' de la página.";
+}

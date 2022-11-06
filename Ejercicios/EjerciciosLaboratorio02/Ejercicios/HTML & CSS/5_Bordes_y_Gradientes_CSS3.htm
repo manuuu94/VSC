@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>  
+	<style>
+
+	.miBloque {
+		float: left;
+		margin: 5px;
+		padding: 15px;
+		width: 300px;
+		height: 300px;
+		border: 1px solid black;
+		} 
+	
+	#gradiente1 {
+		background: -webkit-linear-gradient(left top, lightblue , blue); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(bottom right, lightblue, blue); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(bottom right, lightblue, blue); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(to bottom right, lightblue , blue); /* Standard syntax */
+	}
+	
+	#gradiente2 {
+	  background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+	  background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+	  background: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+	  background: linear-gradient(red, blue); /* Standard syntax */
+	}
+	
+	#gradiente3 {
+	  background: -webkit-linear-gradient(lightblue, lightgreen); /* For Safari 5.1 to 6.0 */
+	  background: -o-linear-gradient(lightblue, lightgreen); /* For Opera 11.1 to 12.0 */
+	  background: -moz-linear-gradient(lightblueblue, lightgreen); /* For Firefox 3.6 to 15 */
+	  background: linear-gradient(lightblue, lightgreen); /* Standard syntax */
+	}
+	
+	#gradiente4 {
+		background: -webkit-linear-gradient(180deg, green, blue); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(180deg, green, blue); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(180deg, green, blue); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(180deg, green, blue); /* Standard syntax */
+	}
+
+	
+	</style>
+</head>
+
+<body>
+ 
+  <div id="gradiente1" class="miBloque">
+    <h3>Los Contenedores Div</h3>  
+	Las etiquetas "div" son <b>elementos de bloque</b> <br>
+	que pueden ser usadas como contenedores de otros elementos HTML.<br>	
+  </div>
+  
+  <div id="gradiente2" class="miBloque">
+	 <h3>Los Contenedores Div #2</h3>  
+	 Los elementos de bloque son elementos que <b>ocupan todo el espacio disponible</b><br>
+	 a lo ancho y a lo alto (en función de su contenido)  y se agrupan en vertical, apilandose como ladrillos.
+  </div>
+  
+  <div id="gradiente3" class="miBloque">
+	<h3>Los Contenedores Span</h3>
+	Las etiquetas "span" son <b>elementos en línea</b> <br>que pueden ser usadas como contenedores de texto.
+  </div>
+
+  <div id="gradiente4" class="miBloque">
+	<h3>Los Contenedores Span #2</h3>
+	Los elementos de linea son elementos que <b>ocupan el espacio necesario</b><br> 
+	(en función de su contenido) tanto a lo ancho como a lo alto y que se apilan<br>
+	horizontalmente mientras tengan espacio, una vez alcanzado el ancho máximo <br>
+	(delimitado por los elementos que los contengan) saltarán de linea y seguirán apilandose en horizontal.
+  </div>
+  
+</body>
+</html>

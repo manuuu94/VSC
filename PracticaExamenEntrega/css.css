@@ -1,0 +1,54 @@
+.main{
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto;
+}
+
+  /* */
+strong > span {
+    quotes: '"' '"';
+  }
+
+strong > span:before {
+    content: open-quote;
+  }
+  
+strong > span:after {
+    content: close-quote;
+  }
+
+
+#idFotograma {
+      animation: bounce .5s alternate infinite ease-in;
+  }
+  
+
+@media screen and (min-width:701px){
+      @keyframes bounce {
+          0% {
+              transform:translateX(50%);
+          }
+          100% {
+              transform: translateX(-25);
+          }
+      }
+      #idFotograma{
+          color:red;
+          display:inline-block;
+      }
+    }
+
+@media screen and (max-width:700px){
+        @keyframes bounce{
+            0%{
+                transform: translateY(-70%);
+            }
+            100% {
+                transform: translateY(+100%);
+            }
+        }
+    #idFotograma{
+        color:green;
+        display: block;
+    }    
+  }

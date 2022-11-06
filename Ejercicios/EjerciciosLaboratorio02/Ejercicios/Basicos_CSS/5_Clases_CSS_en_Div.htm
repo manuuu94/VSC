@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html><head>
+<title>estilo basado en la etiqueta div</title>
+
+<!-- define un estilo llamado sección que afecta a una division de texto-->
+
+<style type="text/css">
+
+   div.sección {
+		font-family: 'comic sans ms';
+		font-size: 12pt;
+		text-align: right;
+		background-color: #c0c0c0;
+		margin-left: 1in;
+		margin-right: 1in;
+		border: medium solid blue;
+		padding: 20px;
+		padding-top:0px;
+	} 
+
+</style>
+
+</head>
+<body>
+
+<p>esto es texto normal encima de la etiqueta div.</p>
+
+<div class="sección">
+	<!-- aplica el estilo div a la cabecera, párrafo e imagen siguientes -->
+
+	<h1>sección con 3 elementos</h1>
+
+	<p>la cabecera anterior, este texto y la imagen gráfica siguiente se encuentran
+	dentro de un estilo definido con una etiqueta div. por esta razón, los tres elementos -- 
+	la cabecera, el texto y la imagen -- se ven afectados por el estilo.
+	</p>
+	
+	<img src="images/defiant2.gif">
+</div>
+<p>el texto situado fuera de la división no se ve afectado por el estilo sección.</p>
+</body>
+</html>

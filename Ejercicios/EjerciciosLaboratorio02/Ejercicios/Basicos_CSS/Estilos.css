@@ -1,0 +1,37 @@
+
+body
+{
+    BORDER-RIGHT: thin;
+    BORDER-TOP: thin;
+    BORDER-LEFT: thin;
+    BORDER-BOTTOM: thin
+}
+
+h2{
+   font-size:24pt;
+   color:blue;
+   font-family:verdana
+}
+
+p{
+   font-size:12pt;
+   color: green;
+   font-family:verdana
+}
+
+.miClase 
+{
+   color: blue;
+}
+
+.otraClase 
+{
+   text-align: right;
+   padding-bottom: 20px;
+}
+
+#rebelde {
+   text-align: center;
+    color: red;
+}
+

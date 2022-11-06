@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>  
+	<style>
+	.miBloque {
+		float: left;
+		margin: 5px;
+		padding: 15px;
+		width: 300px;
+		height: 300px;
+		border: 1px solid black;
+		} 
+	
+	#redondeado {
+		border: 2px solid;
+		border-radius: 25px;
+	}
+	
+	#redondeado2 {
+		display:block;
+		border: 2px solid;		
+		border-radius: 20px / 60px;
+		width: 300px;
+		height: 40px;
+		text-shadow:rgb(100,100,170) 3px 3px 5px;
+	}
+	
+	#consombra {
+		box-shadow: 10px 10px 5px #888888;
+	}
+	</style>
+</head>
+
+<body>
+ 
+  <div id="redondeado" class="miBloque">
+    <h3>Los Contenedores Div</h3>  
+	Las etiquetas "div" son <b>elementos de bloque</b> <br>
+	que pueden ser usadas como contenedores de otros elementos HTML.<br>	
+  </div>
+  
+  <div id="consombra" class="miBloque">
+	 <h3>Los Contenedores Div #2</h3>  
+	 Los elementos de bloque son elementos que <b>ocupan todo el espacio disponible</b><br>
+	 a lo ancho y a lo alto (en función de su contenido)  y se agrupan en vertical, apilandose como ladrillos.
+  </div>
+  
+  <div id="redondeado2" class="miBloque">
+    <h3>Los Contenedores Div</h3>  
+  </div>
+  
+  
+</body>
+</html>

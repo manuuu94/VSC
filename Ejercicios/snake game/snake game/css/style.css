@@ -1,0 +1,38 @@
+#home {
+      width: 350px;
+      height: 350px;
+      
+      background-size: auto 350px;
+      background-repeat: no-repeat;
+      background-color: lightgrey;
+      background-position: center center;
+      padding: 0;
+      margin: 03;
+
+    }
+    
+    button {
+      background-color: green;
+      color: white;
+      border: none;
+      bottom: 0;
+      height: 30px;
+      font-size: 12pt;
+      float: left;
+      width: 90px;
+      margin: 10px 0 0 0;
+    }
+    button:hover {
+      background-color: darkgreen;
+    }
+
+    button:disabled {
+      background-color: grey;
+    }
+
+    
+
+    .game {
+      margin: 0 auto;
+    }
+
